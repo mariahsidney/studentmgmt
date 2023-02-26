@@ -1,7 +1,3 @@
-<?php 
-include "navigation-2.php";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -129,6 +125,55 @@ include "navigation-2.php";
         </style>
     </head>
     <body>
+	        <nav class = "navbar navbar-expand-lg navbar-dark fixed-top" style = "background-color: #681A1A;">
+        <a class = "navbar-brand" href=#>Web Development</a>
+        <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#portfolio-nav" aria-controls = "portfolio-nav" aria-expanded = "false" aria-label = "Toggle navigation">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+		
+        <div class = "collapse navbar-collapse" id = "portfolio-nav">
+            <ul class="nav navbar-nav mr-auto">
+                <li class ="nav-item">
+                    <a class="nav-link" href="homepage.php">HOME</a>
+                </li>
+                <li class = "nav-item">
+                    <a class="nav-link" href="studentlandingpage.php">STUDENT</a>
+                </li>
+                <li class = "nav-item">
+                    <a class="nav-link" href="#">COURSE</a>
+                </li>
+                <li class = " nav-item">
+                    <a class="nav-link" href="#">INSTRUCTORS</a>
+                </li>
+            
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                        GENERATE REPORT
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">By Number of Participants per Course</a><li>
+                            <a class="dropdown-item" href="#">By Course conducted by Date Range</a><li>
+                            <a class="dropdown-item" href="#">By Participants of the Course</a></li>
+                            <a class="dropdown-item" href="#">By Pool Instructors per Course</a></li>
+    </ul>
+                </li>
+            </ul>
+
+            <ul class = "nav navbar-nav ms-auto">
+                <li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PROFILE
+                    </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item">User Name</a></li>
+                            <li><a class="dropdown-item">User Type</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Log In/Out</a></li>
+                        </ul>
+                </li> 
+            </ul>
+        </div>
+	</nav>
     <div class="rectangle"></div>
     <div class="rectangle2"></div>
     <div class="rectangle3"></div>
